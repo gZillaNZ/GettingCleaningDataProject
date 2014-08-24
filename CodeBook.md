@@ -9,7 +9,6 @@ actual and calculated measurements.
 
 To obtain the summarised result set (getdata_006.txt) the data went through the following process:
 	-original variable names for the measurements were changed to a standard form
-	(all characters were changed to lower case, parentheses, dashes and commas were removed)
 	-the subject and actual measurements were joined
 	-activity descriptions were joined to the file to the corresponding activity number
 	-the training and test datasets were added to form one dataset
