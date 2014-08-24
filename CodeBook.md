@@ -1,3 +1,5 @@
+To view the file in proper format - click <view> then <raw>
+
 The results file contains the following variables. Subject column is a number assigned to the test subject followed by a short description of the activity
 type being measured. The remaining columns are the summarised means or standard deviations and a variety of sources and properties as in the table below:
 
