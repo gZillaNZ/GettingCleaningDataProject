@@ -1,5 +1,20 @@
 To view the file in proper format - click raw
 
+The data is derived from original source files sourced from:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Contained in the zip are files that describe the original measurements and a description of the activities undertaken.
+There are 2 data sets, each containing a list of the subjects for each measurement and a set of data comprising the 
+actual and calculated measurements.
+
+To obtain the summarised result set (getdata_006.txt) the data went through the following process:
+	-original variable names for the measurements were changed to a standard form, all characters were changed to 		lower case, parentheses, dashes and commas were removed
+	-the subject and actual measurements were joined
+	-activity descriptions were joined to the file to the corresponding activity number
+	-the training and test datasets were added to form one dataset
+	-only measurements of mean or standard deviation were subsetted
+	-the data was summarised by subject and activity aggregating on the mean
+
 The results file contains the following variables. Subject column is a number assigned to the test subject followed by a short description of the activity
 type being measured. The remaining columns are the summarised means or standard deviations and a variety of sources and properties as in the table below:
 
