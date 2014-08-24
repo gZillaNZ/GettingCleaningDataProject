@@ -4,6 +4,7 @@ GettingCleaningDataProject
 Contains project work for "Getting and Cleaning Data" project
 
 In this repo are:
+
 1 the R script used to modify the data as requested for the project - run_analysis.R
 
 2 A codebook explaining the data transformations and the variables in the result file - CodeBook.md
